@@ -19,4 +19,11 @@ public class Util {
         }
     }
     
+public static void limpar(JComponent ... components){
+    for (int i = 0; i < components.length; i++) {
+        ((JTextField) components[i]).setText("");
+        
+    }
+    
+}
 }
